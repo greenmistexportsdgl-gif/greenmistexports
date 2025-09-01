@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenmist Exports - Premium Cocopeat Blocks Manufacturer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .nav-link:hover::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #4ade80;
+            margin-top: 2px;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+        
+        .delay-100 {
+            animation-delay: 0.1s;
+        }
+        
+        .delay-200 {
+            animation-delay: 0.2s;
+        }
+        
+        .delay-300 {
+            animation-delay: 0.3s;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mr-3">
+                    <i class="fas fa-leaf text-white text-2xl"></i>
+                </div>
+                <h1 class="text-2xl font-bold text-green-800">Greenmist<span class="text-green-600">Exports</span></h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Home</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">About</a>
+                <a href="#products" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Products</a>
+                <a href="#benefits" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Benefits</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Contact</a>
+            </nav>
+            
+            <button class="md:hidden text-gray-700" id="menu-toggle">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden bg-white w-full py-4 px-4 shadow-lg" id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="#home" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Home</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">About</a>
+                <a href="#products" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Products</a>
+                <a href="#benefits" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Benefits</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-green-600 font-medium transition">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-4 py-20 text-white">
+            <div class="max-w-2xl animate-fade-in">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Premium Cocopeat Blocks for Sustainable Agriculture</h1>
+                <p class="text-xl mb-8 opacity-90">Greenmist Exports produces high-quality cocopeat growing media that enhances plant growth while being environmentally friendly.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium transition duration-300 transform hover:scale-105">Get a Quote</a>
+                    <a href="#products" class="bg-white hover:bg-gray-100 text-green-700 px-8 py-3 rounded-lg font-medium transition duration-300 transform hover:scale-105">Our Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">About Greenmist Exports</h2>
+                <div class="w-20 h-1 bg-green-600 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2 animate-fade-in delay-100">
+                    <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Cocopeat Manufacturing" class="rounded-lg shadow-lg w-full h-auto object-cover">
+                </div>
+                
+                <div class="md:w-1/2 animate-fade-in delay-200">
+                    <h3 class="text-2xl font-bold text-green-700 mb-4">Leading Cocopeat Manufacturer Since 2010</h3>
+                    <p class="text-gray-600 mb-6">Greenmist Exports is a pioneer in the production of premium quality cocopeat blocks, serving agricultural and horticultural needs worldwide. Our state-of-the-art processing facility ensures consistent quality and sustainable production methods.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-green-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-check-circle text-green-600"></i>
+                            </div>
+                            <p class="text-gray-700">100% organic and eco-friendly cocopeat products</p>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-green-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-check-circle text-green-600"></i>
+                            </div>
+                            <p class="text-gray-700">Advanced processing technology for superior quality</p>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-green-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-check-circle text-green-600"></i>
+                            </div>
+                            <p class="text-gray-700">Sustainable sourcing from responsibly managed coconut farms</p>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-green-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-check-circle text-green-600"></i>
+                            </div>
+                            <p class="text-gray-700">ISO certified production facility</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Our Cocopeat Products</h2>
+                <div class="w-20 h-1 bg-green-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-4">We offer a range of cocopeat products tailored for various agricultural and horticultural applications.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300 animate-fade-in delay-100">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Compressed Cocopeat Block" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-700 mb-2">Compressed Cocopeat Blocks</h3>
+                        <p class="text-gray-600 mb-4">High-density compressed blocks that expand to 3-4 times their size when hydrated. Perfect for shipping and storage.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">5kg, 10kg, 20kg</span>
+                            <button class="text-green-600 hover:text-green-800 font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300 animate-fade-in delay-200">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cocopeat Grow Bags" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-700 mb-2">Cocopeat Grow Bags</h3>
+                        <p class="text-gray-600 mb-4">Ready-to-use grow bags with optimal aeration and water retention properties for hydroponic cultivation.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-green-600 font-bold">Various Sizes</span>
+                            <button class="text-green-600 hover:text-green-800 font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium transition duration-300 transform hover:scale-105">
+                    View All Products
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Why Choose Our Cocopeat?</h2>
+                <div class="w-20 h-1 bg-green-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-4">Our cocopeat products offer numerous advantages for growers and the environment.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-green-50 p-6 rounded-lg shadow-sm text-center animate-fade-in delay-100">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-recycle text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-green-700 mb-2">Sustainable</h3>
+                    <p class="text-gray-600">Made from renewable coconut husk waste, reducing environmental impact.</p>
+                </div>
+                
+                <div class="bg-green-50 p-6 rounded-lg shadow-sm text-center animate-fade-in delay-200">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-tint text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-green-700 mb-2">Water Retention</h3>
+                    <p class="text-gray-600">Holds up to 8-10 times its weight in water, reducing irrigation needs.</p>
+                </div>
+                
+                <div class="bg-green-50 p-6 rounded-lg shadow-sm text-center animate-fade-in delay-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-seedling text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-green-700 mb-2">Plant Growth</h3>
+                    <p class="text-gray-600">Excellent root development and nutrient absorption for healthier plants.</p>
+                </div>
+                
+                <div class="bg-green-50 p-6 rounded-lg shadow-sm text-center animate-fade-in">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bacteria text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-green-700 mb-2">Disease Resistant</h3>
+                    <p class="text-gray-600">Naturally resistant to soil-borne diseases and pests.</p>
+                </div>
+            </div>
+            
+            <div class="mt-16 bg-green-600 rounded-lg p-8 text-white animate-fade-in delay-100">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-2/3 mb-6 md:mb-0">
+                        <h3 class="text-2xl font-bold mb-2">Ready to experience the Greenmist difference?</h3>
+                        <p>Contact us today for samples, pricing, or more information about our cocopeat products.</p>
+                    </div>
+                    <div class="md:w-1/3 text-center md:text-right">
+                        <a href="#contact" class="bg-white hover:bg-gray-100 text-green-700 px-8 py-3 rounded-lg font-medium transition duration-300 inline-block">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-green-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Greenmist Exports</h2>
+                <div class="w-20 h-1 bg-green-400 mx-auto"></div>
+                <p class="max-w-2xl mx-auto mt-4 opacity-90">Get in touch with our team for product inquiries, samples, or partnership opportunities.</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2 animate-fade-in delay-100">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block mb-2 font-medium">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-600 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label for="email" class="block mb-2 font-medium">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-600 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block mb-2 font-medium">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-600 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="Product Inquiry">
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-2 font-medium">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-600 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="bg-green-500 hover:bg-green-400 text-white px-8 py-3 rounded-lg font-medium transition duration-300 w-full">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="lg:w-1/2 animate-fade-in delay-200">
+                    <div class="bg-green-700 rounded-lg p-8 h-full">
+                        <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-green-600 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Our Location</h4>
+                                    <p class="opacity-90">sirumalai Road, Dindigul, TamilNadu, India - 624002</p>
+                                </div>
+                            </div>
+                            
+
+                            <div class="flex items-start">
+                                <div class="bg-green-600 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Email Addresses</h4>
+                                    <p class="opacity-90">greenmistexports@gmail.com</p>
+                                   
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-green-600 p-3 rounded-full mr-4">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Business Hours</h4>
+                                    <p class="opacity-90">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p class="opacity-90">Saturday: 9:00 AM - 1:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-green-600 hover:bg-green-500 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-green-600 hover:bg-green-500 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-green-600 hover:bg-green-500 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="bg-green-600 hover:bg-green-500 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-leaf text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Greenmist<span class="text-green-400">Exports</span></h3>
+                    </div>
+                    <p class="opacity-80">Leading manufacturer of premium quality cocopeat blocks for sustainable agriculture worldwide.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Home</a></li>
+                        <li><a href="#about" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">About Us</a></li>
+                        <li><a href="#products" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Products</a></li>
+                        <li><a href="#benefits" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Benefits</a></li>
+                        <li><a href="#contact" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Compressed Blocks</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Grow Bags</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Briquettes</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Cocopeat Mixes</a></li>
+                        <li><a href="#" class="opacity-80 hover:opacity-100 hover:text-green-300 transition">Custom Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Newsletter</h4>
+                    <p class="opacity-80 mb-4">Subscribe to our newsletter for updates and special offers.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg bg-green-800 border border-green-700 focus:outline-none focus:ring-1 focus:ring-green-400 w-full">
+                        <button type="submit" class="bg-green-600 hover:bg-green-500 px-4 py-2 rounded-r-lg transition">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-green-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="opacity-80 mb-4 md:mb-0">© 2023 Greenmist Exports. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="opacity-80 hover:opacity-100">Privacy Policy</a>
+                    <a href="#" class="opacity-80 hover:opacity-100">Terms of Service</a>
+                    <a href="#" class="opacity-80 hover:opacity-100">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+        
+        // Animation on scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.animate-fade-in');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.2;
+                
+                if (elementPosition < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+        
+        // Run once on page load
+        window.addEventListener('load', animateOnScroll);
+        
+        // Run on scroll
+        window.addEventListener('scroll', animateOnScroll);
+    </script>
+</body>
+</html>
